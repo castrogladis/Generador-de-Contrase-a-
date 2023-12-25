@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: url("imagenes/contraseña.jpg") no-repeat center center/cover;
+}
+
+.centrar-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#contenedor {
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 400px;
+height: 150px;
+background-color: #eee;
+border: 2px solid #D4AC0D;
+border-radius: 20px;
+}
+
+ #nueva-contraseña {
+    font-weight: bold;
+    color: #D4AC0D;
+    font-size: 30px;
+} 
+
+button {
+    border: none;
+    color: #D4AC0D;
+    font-weight: bold;
+    background-color: #BBD3DE;
+    /* margin: 15px; */
+    padding: 20px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #eee; 
+    background: #D4AC0D;
+}
