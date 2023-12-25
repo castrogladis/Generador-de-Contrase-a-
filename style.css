@@ -49,3 +49,9 @@ button:hover {
     color: #eee; 
     background: #D4AC0D;
 }
+
+@media  (max-width: 400px) {
+    #contenedor {
+      width: 300px;
+  }
+  }
